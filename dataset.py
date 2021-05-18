@@ -39,7 +39,5 @@ def collate_fn(data):
     for i in range(len(data)):
       padded_len = pad_size - data[i][0].shape[2]
       image[i,...] = torch.nn.functional.pad(data[i][0], (0, padded_len))
-
-    image=image[..., image.shape[3] // 2]
       
     return image.to(device), labels.to(device)
