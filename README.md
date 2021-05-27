@@ -18,7 +18,10 @@ Main prerequisites are:
 
 ## Experiments
 
-- ```./VAE/algorithm_with_VAE_part1.ipynb ``` -- __Variational Autoencoder__ trained on initial images with/without perceptual, l1 and kl losses and implementation of algorithm;
+- ```./training/classifier.ipynb ``` -- __Classifier__ DenseNet161 model pretrained on ImageNet;
+
+- ```./training/VAE.ipynb ``` -- __Variational Autoencoder__ trained on initial images with/without perceptual, l1 and kl losses and implementation of algorithm;
+
 
 
 ## Pretrained models
@@ -42,7 +45,11 @@ To preprocess images by yourself follow the notebook:
 
 - __Classifier__ 
 
+For classifier model use DenseNet161 pretrained on ImageNet. Solve classification problem for 3 classes: Normal lungs, covid-19 and lungs with pneumonia.
 
+
+
+<img src="https://github.com/koava36/Generative-models-for-lung-parenchyma-progression-modeling/blob/main/imgs/classifier_acc.png" alt="" width="500" height="300">
 
 
 - __Variational autoencoder__ 
