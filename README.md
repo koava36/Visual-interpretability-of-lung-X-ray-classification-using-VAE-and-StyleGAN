@@ -48,6 +48,15 @@ For perceptual loss we use upsampling + conv structure of decoder to decrease th
 | Perceptual + l1 + kl| upsampling + conv| 0.075|25.52|0.67|
 |l1 + kl| ConvTranspose |0.04 |28.54|0.77|
 
+__Perceptual + l1 + kl losses:__
+
+<img src="https://github.com/koava36/Generative-models-for-lung-parenchyma-progression-modeling/blob/master/imgs/perceptual_vae.png" alt="" width="580" height="480">
+
+__l1 + kl losses:__
+
+<img src="https://github.com/koava36/Generative-models-for-lung-parenchyma-progression-modeling/blob/master/imgs/vae_reconstructed.png" alt="" width="580" height="480">
+
+
 
 - __Style Gan2__
 
