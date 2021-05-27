@@ -62,7 +62,7 @@ __l1 + kl losses:__
 
 For StyleGan2 we took pretrained on XRAY images [checkpoint](https://drive.google.com/file/d/1Wmi7qZ-ngX0clvHmgS-j2-FNIMZCWziK/view) and then finetune it on our data.
 
-<img src="https://github.com/koava36/Generative-models-for-lung-parenchyma-progression-modeling/blob/main/imgs/style_gan_generated.png" alt="" width="500" height="300">
+<img src="https://github.com/koava36/Generative-models-for-lung-parenchyma-progression-modeling/blob/main/imgs/style_gan_generated.png" alt="" width="400" height="200">
 
 
 
