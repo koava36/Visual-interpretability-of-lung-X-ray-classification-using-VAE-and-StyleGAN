@@ -26,7 +26,7 @@ In this project we use  data from the [“COVID-19 Image Data Collection”](htt
 
 To download preprocessed data: ["Preprocessed data"](https://drive.google.com/drive/u/1/folders/1eWKsLpFsz4F57q4VNZmiBL2ap1e0k6Um)
 
-Data splitted on train/test/val and have corresponding labels for images in train.csv/test.csv/val.csv files.
+Data splitted on train/test/val and have corresponding labels for images in ```train.csv/test.csv/val.csv ``` files.
 
 To preprocess images by yourself follow the notebook:
 ```Data_downloader_and_extraction.ipynb ``` 
@@ -36,20 +36,31 @@ To preprocess images by yourself follow the notebook:
 - __Classifier__ 
 
 
+
+
 - __Variational autoencoder__ 
+
+Different variations of losses were considered. For l1 + kl loss ConvTranspose in decoder layer show better results, than upsampling + convolution.
+For perceptual loss we use upsampling + conv structure of decoder to decrease the effect of stripes. Also for perceptual loss we use pretrained on train dataset ```DenseNet161``` model.
+
+|losses | structure of decoder | l1 loss | PSNR| SSIM|
+|----------------|:---------:|----------------:|--------------:|-----------:|
+| Perceptual + l1 + kl| upsampling + conv| 0.075|25.52|0.67|
+|l1 + kl| ConvTranspose |0.04 |28.54|0.77|
+
 
 - __Style Gan2__
 
 
 
-
+<!-- 
 <!-- Build LR classifier both on initial data and obtained after encoder bottleneck vectors for gender and age labels.
 
 | Label| Initial vectors | Bottlenck vectors |
 |----------------|:---------:|----------------:|
 | Gender | 0.919 | 0.856 |
 | Age| 0.47 | 0.465 | -->
-
+ 
 
 
 
