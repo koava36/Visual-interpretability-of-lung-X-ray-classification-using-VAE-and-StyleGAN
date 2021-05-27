@@ -25,6 +25,7 @@ Checkpoints for all necessary models:
 In this project we use  data from the [“COVID-19 Image Data Collection”](https://arxiv.org/abs/2003.11597), [git](https://github.com/ieee8023/covid-chestxray-dataset) (Cohen et al., 2020) chest X-ray dataset. This dataset was collected from public sources as well as through indirect collection from hospitals and physicians It contains three classes: 1) healthy, 2)community acquired pneumonia (CAP), and 3) COVID-19 
 
 To download preprocessed data: ["Preprocessed data"](https://drive.google.com/drive/u/1/folders/1eWKsLpFsz4F57q4VNZmiBL2ap1e0k6Um)
+
 Data splitted on train/test/val and have corresponding labels for images in train.csv/test.csv/val.csv files.
 
 To preprocess images by yourself:
