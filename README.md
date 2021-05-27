@@ -28,6 +28,29 @@ To download preprocessed data: ["Preprocessed data"](https://drive.google.com/dr
 
 Data splitted on train/test/val and have corresponding labels for images in train.csv/test.csv/val.csv files.
 
-To preprocess images by yourself:
-```Data_downloader_and_extraction.ipynb ``` -- __Steps for downloading__ 
+To preprocess images by yourself follow the notebook:
+```Data_downloader_and_extraction.ipynb ``` 
+
+## Results
+
+- __Classifier__ 
+
+
+- __Variational autoencoder__ 
+
+- __Style Gan2 __
+
+
+
+
+<!-- Build LR classifier both on initial data and obtained after encoder bottleneck vectors for gender and age labels.
+
+| Label| Initial vectors | Bottlenck vectors |
+|----------------|:---------:|----------------:|
+| Gender | 0.919 | 0.856 |
+| Age| 0.47 | 0.465 | -->
+
+
+
+
 
