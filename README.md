@@ -38,7 +38,7 @@ To preprocess images by yourself follow the notebook:
 
 - __Variational autoencoder__ 
 
-- __Style Gan2 __
+- __Style Gan2__
 
 
 
