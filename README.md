@@ -1,10 +1,10 @@
-# Generative-models-for-lung-parenchyma-progression-modeling
+# Visual interpretability of lung X-ray classification using VAE and StyleGAN
 
 
 The interpretability of NN models is very important for clinicians. The main purpose of this project to provide meaningful
 explanations that are more informative than GradCAM heatmaps. In this project, we attempt to repeat the results presented in
 [Using StyleGAN for visual interpretability of Deep Learning models on medical images](https://arxiv.org/pdf/2101.07563.pdf) (Schutte K. et al., 2021) for the data of
-the current interest and the 3-class classification task. The considered method reveals the patterns learned by the model, which
+the current interest and the 3-class classification task, including bacterial pneumonia, Covid-19 (viral pneumonia) and healthy samples. The considered method reveals the patterns learned by the model, which
 allows clinicians to build trust in the model’s predictions, discover new biomarkers and eventually reveal potential biases. The
 goal is to compare the fitness of different generative models for the task using the Grad-CAM outputs on the same classifier
 
