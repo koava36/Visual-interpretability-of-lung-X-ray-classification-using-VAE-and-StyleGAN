@@ -78,7 +78,7 @@ Results for VAE (perceptual loss):
     <img src="https://github.com/koava36/Generative-models-for-lung-parenchyma-progression-modeling/blob/main/imgs/pneum_to_covid.gif" alt="" width="300">
 </div>
 
-These are simulations of how one sample would be modified to give more confident predictions between 1)bacterial pneumonia - healthy, 2)Covid-19 - healthy, 3)bacterial pneumonia - Covid-19
+These are simulations of how one sample would be modified to give more confident predictions between 1)bacterial pneumonia - healthy, 2)Covid-19 - healthy, 3)bacterial pneumonia - Covid-19.
 
 - __Style Gan2__
 
